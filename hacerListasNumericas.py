@@ -14,3 +14,17 @@ even_numbers = list(range(2, 10, 2)) # Este tercer valor sumara de 2 en 2 empeza
 print(even_numbers)
 odd_numbers = list(range(1, 10, 3))
 print(odd_numbers) # Este tercer valor sumara de 3 en 3 empezando en 1
+
+# Lista con los 10 primeros numeros al cuadrado
+squares = []
+for value in range(1, 11):
+    squares.append(value ** 2)
+
+print(squares)
+
+print(f"Minimum number within the list -> {min(squares)}")
+print(f"Miximum number within the list -> {max(squares)}")
+print(f"sum of all numbers in the list -> {sum(squares)}")
+
+# Listas por compresion
+
