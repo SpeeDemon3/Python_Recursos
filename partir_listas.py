@@ -18,3 +18,15 @@ print(numbers_slide_3)
 numbers_slide_4 = numbers[19:]
 print(numbers_slide_4)
 
+# Trozo de la lista del 27 al 30
+numbers_slide_5 = numbers[-4:]
+print(numbers_slide_5)
+
+# Recorrer un trozo utilizando un bucle for
+names = ['Antonio', 'Ruiz', 'Benito', 'Chula', 'Arya', 'Patricia']
+for name in names[:2]:
+    print(name)
+
+# Copiar una lista
+names_copy = names[:]
+print(names_copy)

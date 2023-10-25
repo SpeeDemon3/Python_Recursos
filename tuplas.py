@@ -1,0 +1,1 @@
+# Tuplas -> Son inmutables, su valor NO puede cambiar, a diferencia de las listas las tuplas se definen con parentesis ()
